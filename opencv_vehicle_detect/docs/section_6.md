@@ -16,3 +16,9 @@
 - param2: 多媒体文件格式(VideoWriter_fourcc) 
 - param3: fps
 - param4: 分辨率
+
+#### 代码优化
+
+- 显示窗口为什么变大了？
+- 使用 `isOpened()`判断摄像头是否已打开
+- 采集数据时，要判断数据是否获取到了
